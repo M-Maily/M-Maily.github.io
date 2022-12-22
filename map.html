@@ -63,7 +63,7 @@
 
     let map = L.map('map').setView([55.9533, -3.1883], 5);
 
-    <!-- Tiles -->
+   //Tiles
     let Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', subdomains: 'abcd',minZoom: 0, maxZoom: 20, ext: 'png'
     }).addTo(map);
@@ -71,7 +71,7 @@
         attribution: '<a href="https://www.openaip.net/">openAIP Data</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-NC-SA</a>)', ext: 'png', minZoom: 4, maxZoom: 14, tms: true, detectRetina: true,subdomains: '12'
     }).addTo(map);
 
-    <!-- Markers -->
+    //Markers
     let HWUni = L.marker([55.9112, -3.3217]).addTo(map);
     let UoE = L.marker([55.9445, -3.1892]).addTo(map);
     
