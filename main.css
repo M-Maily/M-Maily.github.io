@@ -20,9 +20,9 @@ img{
 
 /* Add a background color to the top navigation */
 .topnav{
-    background-color: var(--white);
+    /* background-color: var(--white); */
     overflow: hidden;
-    border-bottom: 1px solid #2f5c51;
+    /* border-bottom: 1px solid #2f5c51; */
     /* background-color: #FEFEFE; */
     background-color: var(--accent);
 }
@@ -30,7 +30,7 @@ img{
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: var(--black);
+    color: var(--white);
     text-align: center;
     opacity: 2rem;
     padding: 14px 16px;
@@ -39,9 +39,9 @@ img{
 }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: var(--accent);
-  }
+.topnav a:hover {
+    background-color: var(--accent-dark);
+}
   
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -52,6 +52,8 @@ img{
 div#main{
     margin: 0px auto;
     width: 90%;
+    padding-left: 15px;
+    border-left: 3px solid var(--accent);
     /* max-width: 1000px; */
 } 
 
@@ -64,6 +66,7 @@ h1{
 p{
     text-align: justify;
     max-width: 80ch;
+    margin-bottom:0.5rem;
 }
 
 a.button{
@@ -84,18 +87,7 @@ a.button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    padding-top: 20px;
-    margin-top: 20px;
-    background-color: var(--accent);
-    color: var(--black);
-    position: 0;
-    /* width: 100%;
-    bottom:0;  */
-}
+
 
 div.center{
     display: flex;
@@ -122,14 +114,27 @@ hr.section-break{
 /* leaflet */
 #map {
     height: 80vh;
-    width: 100%
+    width: 100% 
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: var(--accent);
+    color: var(--black);
+    position: 0;
+    /* width: 100%;
+    bottom:0;  */
+}
 
 /* Footer */
 footer :is(a,p) {
     color: var(--white);
     padding: 0px 10px;
+    text-decoration: none;
 }
 
 footer a:hover {

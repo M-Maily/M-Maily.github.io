@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M Maily</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -19,28 +23,86 @@
     <div class="topnav sticky-top">
         <a  class="active" href="index.html">Home</a>
         <a  href="map.html">Map</a>
-        <!-- <a href="https://www.geos.ed.ac.uk/~s2312383/Webpage-Group-1-Flood-Managemnt/map.html">Interactive Map</a>
-        <a class="active" href="info.html">Further Information</a>
+        <!-- <a href="info.html">Further Information</a>
         <a href="team.html">Team</a> -->
     </div>
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-image" 
-        style="margin-bottom:30px; background-image: url('./images/bgimg.jpg'); height: 40vh; opacity: 0.9">
+        style="padding-top:40px; margin-bottom:30px; background-image: url('./images/bgimg.jpg'); height: 30vh; opacity: 0.75">
         <div class="d-flex center">
-            <h1 style="color:black; text-shadow: 1.5px 1.5px var(--accent)">Maria Maily</h1>
+            <h1 style="color:var(--white); text-shadow: 1.5px 1.5px var(--black)">Maria Maily</h1>
+            <p style="color:var(--white); text-shadow: 1.5px 1.5px var(--black)">Map and history enthusiast</p>
         </div>
     </div>
 
     <!-- main body -->
     <div id="main">
-        <div class="center container d-flex">
-            <h1>Website</h1>
-            <p>Hello World!</p>
+        <div class="d-flex flex-wrap justify-content-around">
+            <div class="col-sm-2">
+                <h3>Profile</h3>
+            </div>
+            <div class="col-sm-10">
+                <p>I have a curious nature, that makes me want to explore multidisciplinary fields. GIS provide an opportunity to combine data and effectively visualise them to improve decision making, as well as bringing history alive in an effort to learn from it to create a, better more sustainable future.</p> 
+                <p>In my free time I like to solve puzzles, bake or get creative while listening to history or true crime podcasts.</p>           
+            </div>
         </div>
-        <div class="center container d-flex">
-            <p>text and stuff</p>
+        <hr>
+
+        <div style="padding-top:20px">
+            <h3 style="color:var(--accent-dark)"><b><u>Education</u></b></h3><br>
+            <h6><b>MSc Geographic Information Science</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>Since 2022</i></p> 
+            <p style="color: #696969"><i class="fa fa-globe-europe"></i> <i>University of Edinburgh, Scotland</i></p>
+            <p>Spatial Modelling and Analysis, Principles of Geographic Information Sciences, Technological Infrastructure for GIS, Research Practice and Planning. These provided a basis for Python, HTML, SQL, Linux and spatial analysis in ArcGIS necessary for the assignments and dissertation.<br> Planned: Introduction to Environmental Modelling, Visual Analytics and Object Oriented Software Engineering.</p> 
+            <br>
+
+            <h6><b>MSc Marine Resource Management and Protection</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>2015 - 2016</i></p> 
+            <p style="color: #696969"><i class="fa fa-globe-europe"></i> <i>Heriot-Watt University, Scotland</i></p>
+            <p>GIS for Environmental Scientists, Practical Skills in Surveying, Environmental Monitoring, Resources and Sustainability, and Applied Research Skills. <br> These subjects and associated projects helped develop individual and teamwork skills across various tasks: project planning under constraints (time, resources and budget), data collection and analysis, communication and effective presentation of findings.<br>
+            Dissertation: Development of Shark Conservation and Species Action Plans for the Cayman Islands. The project consisted of data collection, analysis, mapping, and writing action plans based on the findings to inform policy and implementation roadmaps. </p> 
+            <br>
+
+            <h6 ><b>BA in Politics and International Relations; and Media, Culture and Communication</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>2012 - 2015</i></p> 
+            <p style="color:#696969"><i class="fa fa-globe-oceania"></i> <i>Macquarie University, Australia</i></p>
+            <p>Global Environmental  Politics, Global Political Economy, Science, Society and Environment; Migration, Human Rights and Diversity; and The Planet Earth. These formed the basis of theoretical knowledge of the workings of political decision making and deepened the understanding of environmental, political, societal, and economical challenges.</p> 
         </div>
+        <hr>
+
+        <div style="padding-top:20px">
+            <h3 style="color:var(--accent-dark)"><b><u>Research Experience</u></b></h3><br>
+            <h6><b>Flood Management in Edinburgh</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>MSc GIS: Group Project</i></p> 
+            <p style="color: #696969"><i class="fa fa-globe-europe"></i> <i>Edinburgh, Scotland</i></p>
+            <p><u>Research question</u>: How can green spaces be transformed to reduce flooding as well as social and environmental deprivation? <br> Project deliverables included project management, data gathering and analysis, project presentation, technical report and webpage development. As team leader main priority was the management and effective communication to deliver by the deadlines. Responsibilities included creating ArcGIS maps, literature review, webpage development.</p> 
+            <br>
+
+            <h6><b>Species Action and Conservation Plans</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>MSc MRDP: Dissertation</i></p> 
+            <p style="color: #696969"><i class="fa fa-earth-americas"></i> <i>George Town, Cayman Islands</i></p>
+            <p><u>Research question</u>: What steps should be taken to better protect local elasmobrach species? <br> Local spatial data was gathered through tagging and Baited Remote Underwater Videos. This was used to create and refine Species Action Plans for the six local shark species and a Elasmobranch Conservation Plans.</p> 
+            <br>
+
+            <h6><b>Blue Carbon Study</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>MSc MRDP: Group Project</i></p> 
+            <p style="color: #696969"><i class="fa fa-globe-europe"></i> <i>Orkney, Scotland</i></p>
+            <p><u>Research question</u>: What is the extent of blue carbon habitats and the distribution of priority marine features in Gutter Sound, Orkney? <br> Field work experience was gained, by designing and conducting remote operated vehicle and dive surveys. The collected images, videos and core samples were used to create maps that visualise the biotope featured and allowed for an estimation of the carbon budget. Role in the team was visualising data in ArcGIS.</p> 
+            <br>
+            
+            <h6><b>Removing Churchill Barriers</b></h6>
+            <p style="color: #696969"><i class="fa-regular fa-calendar"></i> <i>MSc MRDP: Group Project</i></p> 
+            <p style="color: #696969"><i class="fa fa-globe-europe"></i> <i>Orkney, Scotland</i></p>
+            <p><u>Research question</u>: What are the social, economic, environmental and technological factors of replacing the Churchill Barriers with bridges and tidal turbines? A seashore study was conduced as part of the field work, stakeholders and specialists were consulted to refine the analysis and advice on turbines and the predicted outcome.</p> 
+            <br>
+        </div>
+        
+
+
+        <!-- <div class="center container d-flex">
+            <p>Download Pdf</p>
+        </div> -->
     </div>
 
     <!-- footer -->
@@ -49,13 +111,13 @@
         <p>
             Contact:
             <a href="https://www.linkedin.com/in/maria-maily/" target="_blank">
-                <i class="fa fa-linkedin"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://github.com/M-Maily" target="_blank">
-                <i class=" fa fa-github"></i>
+                <i class=" fa-brands fa-github"></i>
             </a>
             <a href="mailto:maria@maily.eu">
-                <i class=" fa fa-envelope-o"></i>
+                <i class=" fa-solid fa-envelope"></i>
             </a>
         </p>
             
