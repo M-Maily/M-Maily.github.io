@@ -1,6 +1,7 @@
 :root{
     --black: #222222;
     --white: #fcfcfc;
+    --grey: #696969;
     --accent: #428071;
     --accent-dark: #2f5c51;
     --accent-light: #BCDCD4
@@ -52,15 +53,20 @@ img{
 div#main{
     margin: 0px auto;
     width: 90%;
-    padding-left: 15px;
+    max-width: 1000px;
+    padding-left: 20px;
     border-left: 3px solid var(--accent);
-    /* max-width: 1000px; */
 } 
 
 h1{
     color: var(--accent-dark);
     font-weight: bold;
     text-align: center;
+}
+
+h3{
+    color: var(--accent-dark);
+    font-weight: bold;
 }
 
 p{
