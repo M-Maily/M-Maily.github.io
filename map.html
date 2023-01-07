@@ -18,7 +18,9 @@
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
      crossorigin=""></script>
-    <link rel="stylesheet" href="main.css">
+     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+     <!-- <script src = "https://ajax.googleapis.com/ajax/libs/jQuery/3.3.1/jQuery.min.js"></script> -->
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -76,12 +78,36 @@
         attribution: '<a href="https://www.openaip.net/">openAIP Data</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-NC-SA</a>)', ext: 'png', minZoom: 4, maxZoom: 14, tms: true, detectRetina: true,subdomains: '12'
     }).addTo(map);
 
+    //geojson
+    $.getJSON("./data/ResearchPoints.geojson", function(data){
+        var researchIcon = L.icon({
+            iconUrl: './images/research2.png',
+            iconSize:[40,40]
+        });
+        L.geoJson(data  ,{
+            pointToLayer: function(feature,latlng){
+              return L.marker(latlng,{icon: researchIcon});
+            }
+        }).addTo(map);
+    })
+
+    $.getJSON("./data/EducationPoints.geojson", function(data){
+        var educationIcon = L.icon({
+            iconUrl: './images/university.png',
+            iconSize:[40,40]
+        });
+        L.geoJson(data  ,{
+            pointToLayer: function(feature,latlng){
+              return L.marker(latlng,{icon: educationIcon});
+            }
+        }).addTo(map);
+    })
     //Markers
-    let HWUni = L.marker([55.9112, -3.3217]).addTo(map);
-    let UoE = L.marker([55.9445, -3.1892]).addTo(map);
+    //let HWUni = L.marker([55.9112, -3.3217]).addTo(map);
+    //let UoE = L.marker([55.9445, -3.1892]).addTo(map);
     
-    HWUni.bindPopup("Heriot Watt University");
-    UoE.bindPopup("University of Edinburgh")
+    //HWUni.bindPopup("Heriot Watt University");
+    //UoE.bindPopup("University of Edinburgh")
 </script>
 
 </html>
