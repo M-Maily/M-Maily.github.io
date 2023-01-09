@@ -35,9 +35,10 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-image" 
-        style="margin-bottom:30px; background-image: url('./images/bgimg.jpg'); height: 30vh; opacity:0.9">
+        style="padding-top:40px; margin-bottom:30px; background-image: url('./images/bgimg.jpg'); height: 30vh; opacity: 0.75">
         <div class="d-flex center">
-            <h1 style="color:black; text-shadow: 1.5px 1.5px var(--accent)">Maria Maily</h1>
+            <h1 style="color:var(--white); text-shadow: 1.5px 1.5px var(--black)">Maria Maily</h1>
+            <p style="color:var(--white); text-shadow: 1.5px 1.5px var(--black)">Map and history enthusiast</p>
         </div>
     </div>
 
@@ -79,6 +80,7 @@
     }).addTo(map);
 
     //geojson
+    //icons from https://mapicons.mapsmarker.com/
     $.getJSON("./data/ResearchPoints.geojson", function(data){
         var researchIcon = L.icon({
             iconUrl: './images/research2.png',
