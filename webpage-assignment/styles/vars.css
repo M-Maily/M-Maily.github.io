@@ -1,0 +1,14 @@
+:root{
+    /* Colors */
+    --black: #222222;
+    --white: #fcfcfc;
+    --background: #f5f5f5;
+    --background-dark: #e8e8e8;
+    --grey: #666;
+    --light-grey: #ccc;
+    --accent: #487a7b;
+
+    /* Fonts */
+    --font: 'Source Sans Pro', sans-serif;
+    --font-title: 'times new roman', serif;
+}

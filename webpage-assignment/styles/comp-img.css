@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+
+.img-comp-container {
+	position: relative;
+	height: 426px; 
+}
+
+.img-comp-img {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.img-comp-img img {
+	display: block;
+	vertical-align: middle;
+	max-width:fit-content;
+}
+
+.img-comp-slider {
+	position: absolute;
+	z-index: 9;
+	cursor: ew-resize;
+	/*setings for slider*/
+	width: 25px;
+	height: 25px;
+	background-color: var(--accent);
+	opacity: 0.7;
+	border-radius: 50%;
+}
