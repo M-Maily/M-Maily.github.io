@@ -1,11 +1,7 @@
-:root{
-    --black: #222222;
-    --white: #fcfcfc;
-    --grey: #696969;
-    --accent: #428071;
-    --accent-dark: #2f5c51;
-    --accent-light: #BCDCD4
-}
+@import "nav.css";
+@import "header.css";
+@import "vars.css";
+
 
 body{
     font-family: sans-serif;
@@ -75,24 +71,34 @@ p{
     margin-bottom:0.5rem;
 }
 
+a{
+    color: var(--accent);
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: var(--accent);
+    text-decoration-line: underline;
+}
+
 a.button{
-    background-color:var(--accent);
+    background-color: var(--white);
     border-radius: 2px;
-    color: var(--white);
+    color: var(--accent);
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
+    border: solid 1px var(--accent);
 }
  
 a.button:hover {
-  background-color: var(--accent-dark); 
+  background-color: var(--accent);
   color: var(--white);
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
 
 
 div.center{

@@ -1,0 +1,17 @@
+:root{
+    --black: #222222;
+    --white: #fcfcfc;
+    --grey: #696969;
+    /* --accent: #428071;
+    --accent-dark: #2f5c51; */
+    /* --accent-light: #BCDCD4;    */
+    --accent: #00838F;
+    --accent-dark: #006064;
+    --accent-light: #B2EBF2;
+  
+
+
+    /* Fonts */
+    --font: 'Source Sans Pro', sans-serif;
+    /* --font-title: 'times new roman', serif; */
+}

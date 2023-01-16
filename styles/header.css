@@ -1,0 +1,30 @@
+/*jumbotron*/
+header div.jumbotron-image {
+    background-position-x: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 0px;
+    background-image: url('../images/bgimg.jpg');
+    height: 28vh;
+    vertical-align: middle;
+    overflow: clip;
+}
+
+/* title */
+header div.title{
+    padding: 15px 30px;
+    background-color: var(--accent);
+    padding-left: 90px;
+}
+
+header div.title h1{
+    /* font-family: var(--font-title); */
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    color: var(--white);
+    text-align: left;
+    margin: 0px;
+}
