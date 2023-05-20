@@ -21,6 +21,7 @@
      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
      <!-- <script src = "https://ajax.googleapis.com/ajax/libs/jQuery/3.3.1/jQuery.min.js"></script> -->
     <link rel="stylesheet" href="./styles/main.css">
+    
 </head>
 
 <body>
@@ -37,9 +38,6 @@
     <div class="topnav">
         <a href="index.html">Profile</a>
         <a class="active" href="map.html">Map</a>
-        <!-- <a href="https://www.geos.ed.ac.uk/~s2312383/Webpage-Group-1-Flood-Managemnt/map.html">Interactive Map</a>
-        <a class="active" href="info.html">Further Information</a>
-        <a href="team.html">Team</a> -->
     </div>
 
     <!-- main body -->
@@ -67,51 +65,7 @@
     </footer> 
 </body>
 
-<script>
-    "use strict";
-
-    let map = L.map('map').setView([55.9533, -3.1883], 5);
-
-   //Tiles
-    let Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', subdomains: 'abcd',minZoom: 0, maxZoom: 20, ext: 'png'
-    }).addTo(map);
-    let OpenAIP = L.tileLayer('https://{s}.tile.maps.openaip.net/geowebcache/service/tms/1.0.0/openaip_basemap@EPSG%3A900913@png/{z}/{x}/{y}.{ext}', {
-        attribution: '<a href="https://www.openaip.net/">openAIP Data</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-NC-SA</a>)', ext: 'png', minZoom: 4, maxZoom: 14, tms: true, detectRetina: true,subdomains: '12'
-    }).addTo(map);
-
-    //geojson
-    //icons from https://mapicons.mapsmarker.com/
-    $.getJSON("./data/ResearchPoints.geojson", function(data){
-        var researchIcon = L.icon({
-            iconUrl: './images/research2.png',
-            iconSize:[40,40]
-        });
-        L.geoJson(data  ,{
-            pointToLayer: function(feature,latlng){
-              return L.marker(latlng,{icon: researchIcon});
-            }
-        }).addTo(map);
-    })
-
-    $.getJSON("./data/EducationPoints.geojson", function(data){
-        var educationIcon = L.icon({
-            iconUrl: './images/university.png',
-            iconSize:[40,40]
-        });
-        L.geoJson(data  ,{
-            pointToLayer: function(feature,latlng){
-              return L.marker(latlng,{icon: educationIcon});
-            }
-        }).addTo(map);
-    })
-
-    //Markers
-    //let HWUni = L.marker([55.9112, -3.3217]).addTo(map);
-    //let UoE = L.marker([55.9445, -3.1892]).addTo(map);
-    
-    //HWUni.bindPopup("Heriot Watt University");
-    //UoE.bindPopup("University of Edinburgh")
-</script>
+<!-- map script -->
+<script src="webmap.js"></script>
 
 </html>

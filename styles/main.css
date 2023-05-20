@@ -109,6 +109,10 @@ div.center{
     margin-bottom: 10px;
 }
 
+.column{
+    width:50%
+}
+
 /*jumbotron*/
 .jumbotron-image {
     background-position: center center;

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="199.99998"
+   height="300"
+   viewBox="0 0 52.916661 79.374998"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title4202">map_pins</title>
+  <defs
+     id="defs2" />
+  <g
+     id="layer2"
+     style="display:inline"
+     transform="translate(-13.229167,-13.229164)">
+    <path
+       id="path1903"
+       style="display:inline;fill:#c59d56;fill-opacity:1;stroke:none;stroke-width:1.74049;stroke-opacity:1"
+       d="m 66.145833,39.6875 c 0,4.079437 -0.768047,10.734122 -3.911057,17.081965 -0.01914,0.03866 -0.03837,0.07731 -0.05769,0.115952 -2.645833,5.291666 -6.198189,11.653231 -7.9375,14.552083 -3.826849,6.378081 -3.859407,6.91446 -11.906253,18.520833 -0.29838,0.430369 -1.322916,2.645834 -2.645829,2.645834 -1.322921,0 -2.268018,-2.107679 -2.645837,-2.645834 C 28.794468,78.211271 28.466603,76.989476 25.135417,71.4375 23.307511,68.39099 19.84375,62.177083 17.197917,56.885417 14.124265,50.738113 13.229168,43.628682 13.229168,39.687497 c 0,-7.306266 2.96145,-13.92085 7.749467,-18.708866 4.788016,-4.788017 11.402599,-7.749467 18.708866,-7.749467 7.306268,0 13.92085,2.961451 18.708867,7.749467 1.369062,1.369061 2.588785,2.887461 3.63264,4.528668 2.606816,4.098583 4.116825,8.963052 4.116825,14.180201 z" />
+    <rect
+       style="display:inline;fill:#f9fdfd;fill-opacity:1;stroke:none;stroke-width:0.939621"
+       id="rect1200-7"
+       width="31.75"
+       height="2.6458333"
+       x="23.8125"
+       y="50.270836" />
+    <path
+       id="rect1596-9"
+       style="fill:#f9fdfd;stroke-width:1.64329"
+       d="m 41.010418,36.380207 h 3.96875 v 11.906249 h -3.96875 z m -6.614586,0 h 3.96875 v 11.906249 h -3.96875 z m 13.229168,0 h 3.96875 V 48.286456 H 47.625 Z m -19.84375,0 h 3.968751 V 48.286456 H 27.78125 Z M 25.135416,47.95573 h 29.104168 v 1.984375 H 25.135416 Z" />
+    <path
+       id="path1407"
+       style="display:inline;fill:#f9fdfd;fill-opacity:1;stroke:none;stroke-width:1.265"
+       d="m 23.8125,34.395833 15.874999,-7.9375 15.875001,7.9375 v 0 m -31.75,-1e-6 h 31.75 v 1.322917 h -31.75 z" />
+  </g>
+  <metadata
+     id="metadata1676">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>map_pins</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Maria Maily</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/" />
+        <dc:date>05/2023</dc:date>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
