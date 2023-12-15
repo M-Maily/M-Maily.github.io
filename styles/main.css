@@ -11,6 +11,10 @@ body{
     background-color: #fefefe;
 }
 
+html{
+    scroll-padding-top: 60px;
+}
+
 img{
     max-width: 100%;
     margin: 0px auto;

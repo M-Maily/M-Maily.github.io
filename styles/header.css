@@ -6,7 +6,7 @@ header div.jumbotron-image {
     background-size: cover;
     border-radius: 0;
     margin-bottom: 0px;
-    background-image: url('../dissertation/images/Banner.jpg');
+    background-image: url('../images/Banner.jpg');
     height: 28vh;
     vertical-align: middle;
     overflow: clip;
