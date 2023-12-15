@@ -1,12 +1,12 @@
 /*jumbotron*/
 header div.jumbotron-image {
     background-position-x: center;
-    background-position-y: 20%;
+    background-position-y: 40%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0;
     margin-bottom: 0px;
-    background-image: url('../images/bgimg.jpg');
+    background-image: url('../dissertation/images/Banner.jpg');
     height: 28vh;
     vertical-align: middle;
     overflow: clip;
